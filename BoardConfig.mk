@@ -293,7 +293,7 @@ CUSTOM_TWRP_DEVICE_VERSION := RUI_V2.0
 ##** version prefix is optional - the default value is "LOCAL" if nothing is set in device tree **##
 CUSTOM_TWRP_VERSION_PREFIX := by_Gofraway71
 
-include device/common/version-info/custom_twrp_version.mk
+
 
 ifeq ($(CUSTOM_TWRP_VERSION),)
 CUSTOM_TWRP_VERSION := $(shell date +%Y%m%d)-01
