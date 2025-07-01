@@ -19,18 +19,18 @@ $(call inherit-product-if-exists, vendor/pb/config/common.mk)
 $(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 
 ##** Inherit from RM6785 device **##
-$(call inherit-product, device/realme/RM6785/device.mk)
+$(call inherit-product, device/realme/RMX2001/device.mk)
 
 ##** Device Information **##
-PRODUCT_DEVICE := RM6785
+PRODUCT_DEVICE := RMX2001
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme 7
+PRODUCT_MODEL := Realme 6
 PRODUCT_MANUFACTURER := $(PRODUCT_BRAND)
-PRODUCT_RELEASE_NAME := RMX2155
+PRODUCT_RELEASE_NAME := RMX2001
 
-PRODUCT_SYSTEM_NAME := RMX2155
-PRODUCT_SYSTEM_DEVICE := RM6785
+PRODUCT_SYSTEM_NAME := RMX2001
+PRODUCT_SYSTEM_DEVICE := RMX2001
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
