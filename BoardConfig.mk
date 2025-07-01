@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ##******************************************##
-DEVICE_PATH := device/realme/RM6785
+DEVICE_PATH := device/realme/RMX2001
 
 ##** For building with minimal manifest **##
 ALLOW_MISSING_DEPENDENCIES := true
@@ -35,7 +35,7 @@ TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_IS_64_BIT := true
 
 ##** Bootloader **##
-TARGET_BOOTLOADER_BOARD_NAME := RM6785
+TARGET_BOOTLOADER_BOARD_NAME := RMX2001
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
