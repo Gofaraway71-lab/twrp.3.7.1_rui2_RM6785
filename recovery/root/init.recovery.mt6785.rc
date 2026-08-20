@@ -24,7 +24,6 @@ on init
     chmod 0664 sys/kernel/debug/rt-regmap/mt6360-4e/reg_addr
 
 on fs
-    install_keyring
     setprop crypto.ready 1    
     write /sys/class/oplus_chg/usb/otg_switch 1
     write /sys/class/power_supply/usb/otg_switch 1
